@@ -34,6 +34,20 @@
                ReferencedContainer = "container:fastlane.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CA2675CA1A5FFEBD003E1DBC"
+               BuildableName = "fastlaneTests.xctest"
+               BlueprintName = "fastlaneTests"
+               ReferencedContainer = "container:fastlane.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -46,9 +60,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CA0BF1791A1117FD007D51BE"
-               BuildableName = "ExampleTests.xctest"
-               BlueprintName = "ExampleTests"
+               BlueprintIdentifier = "CA2675CA1A5FFEBD003E1DBC"
+               BuildableName = "fastlaneTests.xctest"
+               BlueprintName = "fastlaneTests"
                ReferencedContainer = "container:fastlane.xcodeproj">
             </BuildableReference>
          </TestableReference>

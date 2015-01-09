@@ -1,0 +1,6 @@
+[
+  "-scheme", "Example",
+  "-configuration", "Debug",
+  "-sdk", "iphonesimulator",
+  "-arch", "i386"
+]
