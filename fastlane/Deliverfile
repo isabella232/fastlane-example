@@ -58,14 +58,6 @@ beta_ipa do
   "../fastlane.ipa" # Tell 'Deliver' where it can find the finished ipa file
 end
 
-# ipa "./latest.ipa" # this can be used, if you prefer manually building the ipa file
-
-# beta_ipa "./ad_hoc_build.ipa" # upload ipa file using `deliver --beta`
-
-# unit_tests do
-#   system("xctool test")
-# end
-
 success do
-  system("say 'Successfully deployed a new version.'")
+  system("say 'Successfully submitted a new version.'")
 end
