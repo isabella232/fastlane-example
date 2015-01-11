@@ -1,10 +1,12 @@
+<h3 align="center">
+  <a href="https://github.com/KrauseFx/fastlane">fastlane</a>
+</h3>
 <p align="center">
-  <b><a href="https://github.com/KrauseFx/fastlane">Fastlane</a></b><br />
-  <a href="https://github.com/KrauseFx/deliver">Deliver</a> &bull; 
-  <a href="https://github.com/KrauseFx/snapshot">Snapshot</a> &bull; 
-  <a href="https://github.com/KrauseFx/frameit">FrameIt</a> &bull; 
+  <a href="https://github.com/KrauseFx/deliver">deliver</a> &bull; 
+  <a href="https://github.com/KrauseFx/snapshot">snapshot</a> &bull; 
+  <a href="https://github.com/KrauseFx/frameit">frameit</a> &bull; 
   <a href="https://github.com/KrauseFx/PEM">PEM</a> &bull; 
-  <a href="https://github.com/KrauseFx/sigh">Sigh</a>
+  <a href="https://github.com/KrauseFx/sigh">sigh</a>
 </p>
 -------
 
