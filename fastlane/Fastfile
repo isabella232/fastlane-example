@@ -22,14 +22,14 @@ end
 
 lane :beta do
   sigh :adhoc
-  deliver :skip_deploy, :beta
   frameit
+  deliver :skip_deploy, :beta
 end
 
 lane :deploy do
   sigh
-  deliver :skip_deploy, :force
   frameit
+  deliver :skip_deploy
 end
 
 # You can define as many lanes as you want
