@@ -25,9 +25,9 @@ title({
   "en-US" => "Your App Name"
 })
 
-changelog({
-  "en-US" => "iPhone 6 (Plus) Support" 
-})
+# changelog({
+#   "en-US" => "iPhone 6 (Plus) Support" 
+# })
 
 description({
   'en-US' => "deliver Description"
