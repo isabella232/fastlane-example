@@ -20,12 +20,12 @@ This is an example project with a working setup of [fastlane](https://github.com
 
 # Usage
 - Install [fastlane](https://github.com/KrauseFx/fastlane)
-- Run `fastlen deploy --trace` in the project folder
+- Run `fastlane deploy` in the project folder
 
 You'll be have to change the used credentials to make `deliver` and `sigh` work. 
 
 # Need help?
-- If there is a technical problem with this project, submit an issue. Run ```fastlane deploy --trace``` to get the stack trace.
+- If there is a technical problem with this project, submit an issue.
 - I'm available for contract work - drop me an email: fastlane@krausefx.com
 
 # License
