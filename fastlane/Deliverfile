@@ -21,6 +21,8 @@ apple_id '956814360'
 screenshots_path "./screenshots"
 
 
+app_icon "./AppIcon.png"
+
 title({
   "en-US" => "Your App Name"
 })
@@ -30,9 +32,30 @@ title({
 # })
 
 description({
-  'en-US' => "deliver Description"
+  'en-US' => "one line too?"
 })
 
+copyright "123 Felix Krause"
+
+automatic_release true
+
+app_review_information({
+  first_name: "dennis",
+  last_name: "last",
+  phone_number: "123123",
+  email_address: "krausefx123123@gmail.com",
+  demo_user: "demo user",
+  demo_password: "demo pass",
+  notes: "such notes
+very new line"
+})
+
+primary_category "Business"
+secondary_category "Books"
+
+ratings_config_path "./ratings.json"
+
+price_tier 5
 
 
 ########################################
