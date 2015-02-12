@@ -22,7 +22,28 @@ end
 
 lane :beta do
   sigh :adhoc
+
+  produce({
+    produce_username: 'felix@sunapps.net',
+    produce_app_identifier: 'net.sunapps.177',
+    produce_app_name: 'felix',
+    produce_language: 'German',
+    produce_version: '1.0',
+    produce_sku: 123,
+    produce_team_name: 'sunappsgmbh'
+  })
+
+  deliver
+
+  crashlytics({
+    crashlytics_path: 'Crashlytics.framework',
+    api_token: '5438780b903e1c576849056256e167ab9fb4e..e',
+    build_secret: 'd4df5ab4a11359a..b6601ba2485fdd32e47d044fcc2ccb2da25e2944c7e6...',
+    ipa_path: 'fastlane.ipa'
+  })
+
   frameit
+
   deliver :skip_deploy, :beta
 end
 
