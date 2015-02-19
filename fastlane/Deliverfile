@@ -66,19 +66,17 @@ price_tier 5
 # I'm using Shenzhen by Mattt, but you can use any build tool you want
 # Remove the whole block if you do not want to upload an ipa file
 ipa do
-    # Add any code you want, like incrementing the build 
-    # number or changing the app identifier
+  # Add any code you want, like incrementing the build 
+  # number or changing the app identifier
 
-    # Attention: When you return a valid ipa file, this file will get uploaded and released
-    # If you only want to upload app metadata, remove the complete ipa block.
+  # Attention: When you return a valid ipa file, this file will get uploaded and released
+  # If you only want to upload app metadata, remove the complete ipa block.
 
-    system("cd ..; ipa build") # build your project using Shenzhen
-    "../fastlane.ipa" # Tell 'Deliver' where it can find the finished ipa file
+  ENV["IPA_OUTPUT_PATH"]
 end
 
 beta_ipa do
-  system("cd ..; ipa build") # build your project using Shenzhen
-  "../fastlane.ipa" # Tell 'Deliver' where it can find the finished ipa file
+  ENV["IPA_OUTPUT_PATH"]
 end
 
 success do
