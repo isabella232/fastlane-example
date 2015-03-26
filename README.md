@@ -34,7 +34,7 @@ This project is licensed under the terms of the MIT license. See the LICENSE fil
 # Contributing
 
 1. Create an issue to discuss about your idea
-2. Fork it (https://github.com/KrauseFx/fastlane-example/fork)
+2. Fork it (https://github.com/fastlane/fastlane-example/fork)
 3. Create your feature branch (`git checkout -b my-new-feature`)
 4. Commit your changes (`git commit -am 'Add some feature'`)
 5. Push to the branch (`git push origin my-new-feature`)
