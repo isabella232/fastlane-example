@@ -22,7 +22,7 @@ This is an example project with a working setup of [fastlane](https://github.com
 - Install [fastlane](https://github.com/KrauseFx/fastlane)
 - Run `fastlane deploy` in the project folder
 
-You'll be have to change the used credentials to make `deliver` and `sigh` work. 
+You'll be have to change the user credentials to make `deliver` and `sigh` work. 
 
 # Need help?
 - If there is a technical problem with this project, submit an issue.
