@@ -5,6 +5,8 @@
 
 # All lines starting with a # are ignored when running `fastlane`
 
+fastlane_version "0.12.5"
+
 before_all do
   # ENV["SLACK_URL"] = "https://hooks.slack.com/services/..."
   ENV['SIGH_TEAM_ID'] = 'Q2CBPJ58CC'
@@ -21,7 +23,7 @@ before_all do
 end
 
 lane :beta do
-  sigh :adhoc
+  sigh(adhoc: true)
 
   produce({
     produce_username: 'felix@sunapps.net',
@@ -44,13 +46,18 @@ lane :beta do
 
   frameit
 
-  deliver :skip_deploy, :beta
+  deliver(
+    skip_deploy: true, 
+    beta: true
+  )
 end
 
 lane :deploy do
   sigh
   frameit
-  deliver :skip_deploy
+  deliver(
+    skip_deploy: true
+  )
 end
 
 # You can define as many lanes as you want
