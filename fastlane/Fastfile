@@ -1,4 +1,4 @@
-# Customise this file, documentation can be found here: 
+# Customise this file, documentation can be found here:
 # https://github.com/krausefx/fastlane#customise-the-fastfile
 
 # Change the syntax highlighting to Ruby
@@ -9,17 +9,21 @@ fastlane_version "0.12.5"
 
 before_all do
   # ENV["SLACK_URL"] = "https://hooks.slack.com/services/..."
-  ENV['SIGH_TEAM_ID'] = 'Q2CBPJ58CC'
+  # ENV['SIGH_TEAM_ID'] = 'Q2CBPJ58CC'
 
   # sh "./customShellScript.sh"
 
   increment_build_number
-  
+
   # cocoapods
 
   xctool
 
   snapshot
+end
+
+lane :test_and_snapshot do
+  #frameit
 end
 
 lane :beta do
@@ -47,7 +51,7 @@ lane :beta do
   frameit
 
   deliver(
-    skip_deploy: true, 
+    skip_deploy: true,
     beta: true
   )
 end
