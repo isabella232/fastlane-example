@@ -19,7 +19,7 @@ before_all do
 
   xctool
 
-  snapshot
+  # snapshot
 end
 
 lane :test_and_snapshot do
