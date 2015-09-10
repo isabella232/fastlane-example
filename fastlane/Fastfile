@@ -18,12 +18,13 @@ before_all do
   # cocoapods
 
   xctool
+end
 
-  # snapshot
+lane :test do
 end
 
 lane :test_and_snapshot do
-  #frameit
+  snapshot
 end
 
 lane :beta do
